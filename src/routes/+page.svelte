@@ -1,7 +1,14 @@
-<script lang="ts">
-    export let data;
+<script>
+import { Col, Row } from 'sveltestrap';
+import Menu from '$lib/components/Menu.svelte';
+export let data;
 </script>
-<h1 class="warning">{data.title}</h1>
-<p>{data.body}</p>
-<a href="blog">Go to blog</a>
 
+<Menu menuItems={data.items}></Menu>
+<main class="container">
+    <Row>
+        <Col>
+            TEST
+        </Col>
+    </Row>
+</main>
