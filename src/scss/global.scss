@@ -1,3 +1,8 @@
+main {
+    min-height: 75rem;
+    padding-top: 2.5rem;
+}
+
 @font-face {
     font-family: 'Manjari';
     src: 
@@ -7,9 +12,5 @@
 
 * {
     font-family: 'Manjari', sans-serif;
-}
-
-main {
-    min-height: 75rem;
-    padding-top: 4.5rem;
+    font-weight: 900;
 }
