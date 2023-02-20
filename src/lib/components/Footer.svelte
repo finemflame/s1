@@ -91,7 +91,7 @@
 
     <!-- Copyright -->
     <nav class="copy-nav text-center text-muted p-4 d-flex justify-content-center" style="background-color: rgba(0, 0, 0, 0.025);">
-        © 2023 Copyright <NavLink href="https://chooomedia.com/">CHOOOMEDIA</NavLink>
+        © 2023 <NavLink href="https://chooomedia.com/">CHOOOMEDIA</NavLink>
     </nav>
     <!-- Copyright -->
 </footer>
